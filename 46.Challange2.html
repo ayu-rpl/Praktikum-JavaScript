@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challange 2</title>
+</head>
+<body>
+    <script>
+        var ulangi = prompt("Berapa banyak perulangan yang Anda inginkan?");
+        var angka = "";
+
+        for(let i = 1; i <= ulangi; i++){
+            for(let j = 1; j <= i; j++){
+                angka += j + "";
+            }
+            
+            angka += "<br>";
+        }
+
+        document.write(angka);
+
+    </script>
+</body>
+</html>
